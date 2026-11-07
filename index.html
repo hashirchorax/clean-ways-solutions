@@ -221,6 +221,19 @@ html.io-on .rv.in{opacity:1;transform:none}
 .coming-soon .cs-title{font-family:"Playfair Display",serif;font-size:1.35rem;font-weight:700;letter-spacing:.22em;color:var(--aqua-soft)}
 .coming-soon p{margin:.65rem auto 0;color:var(--muted);font-size:.95rem;line-height:1.65;max-width:480px}
 
+/* ---------- decent elevators — company panel ---------- */
+.decent-block{margin-top:1.15rem;background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line-soft);border-radius:var(--radius);padding:1.8rem 1.7rem 1.9rem}
+.decent-block h3,.panel-h h3{margin:0;font-size:clamp(1.55rem,3.4vw,2.15rem);font-weight:800;letter-spacing:.03em;color:#fff}
+.decent-block h3::after,.panel-h h3::after{content:"";display:block;width:72px;height:3px;border-radius:2px;margin-top:.55rem;background:linear-gradient(90deg,var(--sapphire),transparent)}
+.decent-tagline{font-family:"Playfair Display",serif;font-style:italic;font-weight:600;font-size:1.22rem;line-height:1.55;color:var(--ice);margin:.95rem 0 0}
+.decent-block p:not(.decent-tagline){color:var(--muted);line-height:1.8;font-size:1.02rem;margin:.95rem 0 0;max-width:900px}
+.panel-h{margin-top:2rem}
+.panel-h .decent-tagline{margin-top:.6rem}
+.decent-block.commitment{background:linear-gradient(180deg,rgba(111,157,255,.09),var(--panel));border-color:#2b3c63}
+.decent-cta{margin-top:1.4rem}
+.decent-cta .btn-quote{display:inline-block;flex:none;padding:.85rem 1.7rem}
+@media(max-width:580px){.decent-block{padding:1.35rem 1.15rem 1.5rem}}
+
 /* ---------- how it works ---------- */
 .how{max-width:1200px;margin:0 auto;padding:3.2rem 1.2rem .8rem}
 .how h2{font-size:clamp(2.1rem,4.8vw,3.1rem);margin:0 0 .55rem;font-weight:800;letter-spacing:.02em;color:#fff}
@@ -321,11 +334,11 @@ footer a:hover{text-decoration:underline}
       <h2>DECENT ELEVATORS</h2>
       <span class="biz-tag">INSTALLATION · SERVICE · ORDERS ON QUOTE</span>
     </div>
-    <p class="biz-sub rv">The opening section, with a live animated elevator — the cabin stops at every floor, the doors open and close, and the floor indicator changes as it travels. An elevator is a service, so there is no cart here; and these options stay hidden as well — click <b>VIEW PRODUCTS</b> beneath the animation to reveal them, where the <b>GET QUOTE</b> button takes you straight to WhatsApp.</p>
+    <p class="biz-sub rv"><b>Decent Elevators – Elevating Your World with Safety, Comfort &amp; Innovation.</b> Decent Elevators is dedicated to providing premium-quality elevator solutions with advanced technology, superior engineering and reliable performance. We specialize in supplying, installing, modernizing and maintaining a wide range of elevator systems for residential, commercial and industrial buildings.</p>
     <p class="biz-contact rv"><span><span class="bc-label">WHATSAPP</span><a href="https://wa.me/923069440025" target="_blank" rel="noopener">0306 9440025</a></span><span><span class="bc-label">EMAIL</span><a href="mailto:cleanwayssolutions453@gmail.com">cleanwayssolutions453@gmail.com</a></span></p>
 
     <div class="stage stage-elevator rv">
-      <span class="stage-label"><i></i>LIVE ANIMATION</span>
+      <span class="stage-label"><i></i>DECENT ELEVATORS</span>
       <div class="floor-panel"><div class="fl" id="floorNum">G</div><div class="fs">FLOOR</div></div>
       <div class="shaft-wrap">
         <div class="shaft">
@@ -348,47 +361,152 @@ footer a:hover{text-decoration:underline}
     <div class="view-bar rv">
       <button class="view-btn" type="button" data-view-btn aria-expanded="false" aria-controls="products-elevators">
         <span class="view-btn-text">VIEW PRODUCTS</span>
-        <span class="view-btn-count">3 OPTIONS</span>
+        <span class="view-btn-count">12 SERVICES</span>
         <span class="view-btn-hint">Click here to view the products</span>
         <span class="view-btn-arrow" aria-hidden="true">▾</span>
       </button>
     </div>
 
     <div class="products-panel" id="products-elevators" hidden>
+
+    <div class="decent-block">
+      <h3>ABOUT DECENT ELEVATORS</h3>
+      <p class="decent-tagline">Decent Elevators – Elevating Your World with Safety, Comfort &amp; Innovation.</p>
+      <p>Decent Elevators is dedicated to providing premium-quality elevator solutions with advanced technology, superior engineering and reliable performance. We specialize in supplying, installing, modernizing and maintaining a wide range of elevator systems for residential, commercial and industrial buildings.</p>
+      <p>Our elevators are designed to deliver smooth, quiet and comfortable operation, supported by high-quality machinery, precision engineering, durable components and advanced safety systems.</p>
+      <p>From elegant residential elevators to high-performance commercial and passenger lifts, we provide customized solutions designed to meet different building requirements.</p>
+      <p>Our commitment is to combine modern design, reliable machinery, exceptional craftsmanship and passenger safety to deliver an outstanding vertical transportation experience.</p>
+    </div>
+
+    <div class="panel-h">
+      <h3>OUR ELEVATOR SERVICES</h3>
+      <p class="decent-tagline">A complete range of elevator systems and services — supplied, installed, modernized and maintained by Decent Elevators.</p>
+    </div>
     <div class="cards">
       <article class="card">
         <div class="card-art">
-          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><rect x="6" y="4" width="60" height="78" rx="4" fill="none" stroke="#6f9dff" stroke-width="2"/><line x1="36" y1="4" x2="36" y2="82" stroke="#6f9dff" stroke-width="2"/><path d="M26 34l-6 8 6 8M46 34l6 8-6 8" stroke="#c9d9ff" stroke-width="2.4" fill="none"/></svg>
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><rect x="10" y="6" width="52" height="74" rx="4" fill="none" stroke="#6f9dff" stroke-width="2"/><line x1="36" y1="6" x2="36" y2="80" stroke="#6f9dff" stroke-width="2"/><circle cx="36" cy="15" r="2.4" fill="#c9d9ff"/><path d="M25 38l-6 7 6 7M47 38l6 7-6 7" stroke="#c9d9ff" stroke-width="2.4" fill="none"/></svg>
         </div>
         <div class="card-body">
-          <h3>Passenger Elevator</h3>
-          <p>A modern lift for homes, offices and commercial buildings — installed by our expert team.</p>
-          <div class="price-row"><span class="price">On Quote</span><span class="price-note">PRICE AFTER SURVEY</span></div>
-          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20a%20Passenger%20Elevator." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+          <h3>Passenger Elevators</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Passenger%20Elevators." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
         </div>
       </article>
       <article class="card">
         <div class="card-art">
-          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><path d="M12 78V34l24-22 24 22v44" fill="none" stroke="#6f9dff" stroke-width="2"/><rect x="29" y="48" width="14" height="30" fill="none" stroke="#c9d9ff" stroke-width="2"/><line x1="36" y1="48" x2="36" y2="78" stroke="#c9d9ff" stroke-width="1.6"/></svg>
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><path d="M6 38L36 10l30 28" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M14 33v49M58 33v49M10 82h52" fill="none" stroke="#6f9dff" stroke-width="2"/><rect x="28" y="50" width="16" height="32" fill="none" stroke="#c9d9ff" stroke-width="2"/><line x1="36" y1="50" x2="36" y2="82" stroke="#c9d9ff" stroke-width="1.6"/></svg>
         </div>
         <div class="card-body">
-          <h3>Home Elevator</h3>
-          <p>A compact home lift for small spaces — an easy, safe ride for elders and the whole family.</p>
-          <div class="price-row"><span class="price">On Quote</span><span class="price-note">PRICE AFTER SURVEY</span></div>
-          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20a%20Home%20Elevator." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+          <h3>Home &amp; Residential Elevators</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Home%20%26%20Residential%20Elevators." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
         </div>
       </article>
       <article class="card">
         <div class="card-art">
-          <svg width="80" height="86" viewBox="0 0 80 86" aria-hidden="true"><circle cx="40" cy="38" r="24" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M40 24v14l10 8" stroke="#c9d9ff" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M18 74h44" stroke="#6f9dff" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><rect x="18" y="6" width="36" height="76" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M25 16h6M41 16h6M25 28h6M41 28h6M25 40h6M41 40h6" stroke="#c9d9ff" stroke-width="2"/><rect x="29" y="56" width="14" height="26" fill="none" stroke="#c9d9ff" stroke-width="2"/><line x1="36" y1="56" x2="36" y2="82" stroke="#c9d9ff" stroke-width="1.6"/></svg>
         </div>
         <div class="card-body">
-          <h3>Maintenance Plan</h3>
-          <p>Monthly service and safety checks — your lift stays smooth, safe and always ready.</p>
-          <div class="price-row"><span class="price">On Quote</span><span class="price-note">MONTHLY / YEARLY PLAN</span></div>
-          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20the%20details%20of%20the%20Elevator%20Maintenance%20Plan." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+          <h3>Commercial Elevators</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Commercial%20Elevators." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
         </div>
       </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><circle cx="36" cy="14" r="9" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M36 9v10M31 14h10" stroke="#c9d9ff" stroke-width="2.4"/><path d="M8 62V44M8 56h38l12 6M8 62h56" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M14 50h20" stroke="#c9d9ff" stroke-width="2"/><circle cx="18" cy="71" r="3.5" fill="none" stroke="#c9d9ff" stroke-width="2"/><circle cx="54" cy="71" r="3.5" fill="none" stroke="#c9d9ff" stroke-width="2"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Hospital &amp; Bed Elevators</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Hospital%20%26%20Bed%20Elevators." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><path d="M18 12h36M36 12v10" stroke="#6f9dff" stroke-width="2" fill="none"/><rect x="31" y="22" width="10" height="18" fill="none" stroke="#c9d9ff" stroke-width="2"/><rect x="24" y="40" width="24" height="34" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M24 62c4-3 8 3 12 0s8 3 12 0" fill="none" stroke="#c9d9ff" stroke-width="2"/><path d="M14 80h44" stroke="#6f9dff" stroke-width="2"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Hydraulic Elevators</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Hydraulic%20Elevators." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><circle cx="36" cy="24" r="15" fill="none" stroke="#6f9dff" stroke-width="2"/><circle cx="36" cy="24" r="4" fill="none" stroke="#c9d9ff" stroke-width="2"/><path d="M36 11v7M36 30v7M23 24h7M42 24h7" stroke="#c9d9ff" stroke-width="2"/><path d="M29 37v11M43 37v11" stroke="#6f9dff" stroke-width="2"/><rect x="22" y="48" width="28" height="30" fill="none" stroke="#6f9dff" stroke-width="2"/><line x1="36" y1="48" x2="36" y2="78" stroke="#c9d9ff" stroke-width="1.6"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Machine Room Less (MRL) Elevators</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Machine%20Room%20Less%20(MRL)%20Elevators." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><rect x="10" y="8" width="52" height="70" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M10 22h52" stroke="#6f9dff" stroke-width="2"/><path d="M36 27v9M32 32l4 4 4-4" stroke="#c9d9ff" stroke-width="2" fill="none"/><rect x="23" y="46" width="26" height="24" fill="none" stroke="#c9d9ff" stroke-width="2"/><path d="M23 46l13 8 13-8M36 54v16" stroke="#c9d9ff" stroke-width="1.8" fill="none"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Freight &amp; Cargo Elevators</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Freight%20%26%20Cargo%20Elevators." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><path d="M18 80V32a18 15 0 0 1 36 0v48" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M36 18v62M26 23v57M46 23v57" stroke="#c9d9ff" stroke-width="1.6" fill="none" opacity=".75"/><path d="M20 68l9-7 8 5 8-7 7 5" stroke="#c9d9ff" stroke-width="1.8" fill="none" opacity=".8"/><path d="M14 80h44" stroke="#6f9dff" stroke-width="2"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Panoramic &amp; Glass Elevators</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Panoramic%20%26%20Glass%20Elevators." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><path d="M12 22h48M12 43h48M12 64h48" stroke="#6f9dff" stroke-width="2"/><circle cx="26" cy="22" r="5.5" fill="#0d1526" stroke="#c9d9ff" stroke-width="2"/><circle cx="45" cy="43" r="5.5" fill="#0d1526" stroke="#c9d9ff" stroke-width="2"/><circle cx="31" cy="64" r="5.5" fill="#0d1526" stroke="#c9d9ff" stroke-width="2"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Customized Elevator Solutions</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Customized%20Elevator%20Solutions." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><path d="M8 12h56" stroke="#6f9dff" stroke-width="2"/><path d="M36 12v11" stroke="#6f9dff" stroke-width="2"/><path d="M36 23c0 5-6 5-6 10" fill="none" stroke="#c9d9ff" stroke-width="2"/><path d="M29 33h14" stroke="#c9d9ff" stroke-width="2"/><rect x="18" y="38" width="36" height="40" fill="none" stroke="#6f9dff" stroke-width="2"/><line x1="36" y1="38" x2="36" y2="78" stroke="#c9d9ff" stroke-width="1.6"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Elevator Installation</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Elevator%20Installation." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><path d="M53 28a20 20 0 1 0 5 19" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M58 39v11H47" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M36 57V33M27 42l9-9 9 9" fill="none" stroke="#c9d9ff" stroke-width="2.6"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Elevator Modernization &amp; Upgrades</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20Elevator%20Modernization%20%26%20Upgrades." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-art">
+          <svg width="72" height="86" viewBox="0 0 72 86" aria-hidden="true"><path d="M36 9l20 7v16c0 15-8 25-20 32C24 57 16 47 16 32V16z" fill="none" stroke="#6f9dff" stroke-width="2"/><path d="M27 37l7 7 13-14" fill="none" stroke="#c9d9ff" stroke-width="2.6"/></svg>
+        </div>
+        <div class="card-body">
+          <h3>Elevator Maintenance &amp; Repair</h3>
+          <div class="card-actions"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20the%20details%20of%20Elevator%20Maintenance%20%26%20Repair." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="decent-block">
+      <h3>QUALITY, MACHINERY &amp; ENGINEERING</h3>
+      <p class="decent-tagline">Engineered for Smooth Performance. Built for Lasting Reliability.</p>
+      <p>At Decent Elevators, we focus on delivering exceptional elevator performance through quality machinery, advanced control systems, precision engineering and carefully selected components.</p>
+      <p>Our elevator systems are designed for smooth starting and stopping, reduced vibration, quiet operation, comfortable movement and dependable performance.</p>
+      <p>We emphasize advanced safety features, durable construction, professional installation and proper maintenance to ensure a reliable experience for every passenger.</p>
+    </div>
+
+    <div class="decent-block commitment">
+      <h3>OUR COMMITMENT</h3>
+      <p class="decent-tagline">Your Safety. Our Engineering. Your Comfort.</p>
+      <p>We believe that a great elevator is more than just transportation between floors. It is a combination of safety, comfort, technology and engineering excellence.</p>
+      <p>At Decent Elevators, our goal is to provide reliable elevator solutions that enhance the value, convenience and functionality of every building.</p>
+      <div class="decent-cta"><a class="btn-quote" href="https://wa.me/923069440025?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20an%20elevator." target="_blank" rel="noopener">GET QUOTE — WHATSAPP</a></div>
     </div>
     </div>
   </section>
